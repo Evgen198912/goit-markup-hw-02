@@ -8,13 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -26,13 +20,13 @@
       <nav class="header-nav">
         <ul class="header-list">
           <li class="header-item">
-            <a class="studio-link" href="./index.html">Студия</a>
+            <a class="header-link" href="./index.html">Студия</a>
           </li>
           <li class="header-item">
-            <a class="portfolio-link" href="./portfolio.html">Портфолио</a>
+            <a class="header-link-active" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="header-item">
-            <a class="contacts-link" href="#">Контакты</a>
+            <a class="header-link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -48,43 +42,33 @@
     </header>
     <!-- Portfolio section -->
     <main class="main-portfolio">
-      <h1 hidden>Портфолио</h1>
+      <h1 class="visually-hidden">Портфолио</h1>
       <!-- Filters section -->
       <section class="filter">
-        <h2 hidden>Фильтр</h2>
-        <ul class="filter-controls">
+        <h2 class="visually-hidden">Фильтр</h2>
+        <ul class="filter-list">
           <li>
-            <button class="all-btn" type="button">
-              <span class="btn btn-1">Все</span>
-            </button>
+            <button class="btn-active" type="button">Все</button>
           </li>
           <li>
-            <button class="Web-sites-btn" type="button">
-              <span class="btn">Веб-сайты</span>
-            </button>
+            <button class="btn" type="button">Веб-сайты</button>
           </li>
           <li>
-            <button class="applications-btn" type="button">
-              <span class="btn">Приложения</span>
-            </button>
+            <button class="btn" type="button">Приложения</button>
           </li>
           <li>
-            <button class="design-btn" type="button">
-              <span class="btn">Дизайн</span>
-            </button>
+            <button class="btn" type="button">Дизайн</button>
           </li>
           <li>
-            <button class="marketing-btn" type="button">
-              <span class="btn">Маркетинг</span>
-            </button>
+            <button class="btn" type="button">Маркетинг</button>
           </li>
         </ul>
       </section>
       <!-- Project section -->
       <section class="project">
-        <h2 hidden>Проекти</h2>
+        <h2 class="visually-hidden">Проекти</h2>
         <ul class="project-list">
-          <li class="project-item-1">
+          <li class="project-item">
             <img
               class="project-img"
               src="./images/main/project1.jpg"
@@ -95,7 +79,7 @@
             <h3 class="project-subtitle">Технокряк</h3>
             <p class="project-desc">Веб-сайт</p>
           </li>
-          <li class="project-item-2">
+          <li class="project-item">
             <img
               class="project-img"
               src="./images/main/project2.jpg"
@@ -106,7 +90,7 @@
             <h3 class="project-subtitle">Постер New Orlean vs Golden Star</h3>
             <p class="project-desc">Дизайн</p>
           </li>
-          <li class="project-item-3">
+          <li class="project-item">
             <img
               class="project-img"
               src="./images/main/project3.jpg"
@@ -117,7 +101,7 @@
             <h3 class="project-subtitle">Ресторан Seafood</h3>
             <p class="project-desc">Приложение</p>
           </li>
-          <li class="project-item-4">
+          <li class="project-item">
             <img
               class="project-img"
               src="./images/main/project4.jpg"
@@ -128,7 +112,7 @@
             <h3 class="project-subtitle">Проект Prime</h3>
             <p class="project-desc">Маркетинг</p>
           </li>
-          <li class="project-item-5">
+          <li class="project-item">
             <img
               class="project-img"
               src="./images/main/project5.jpg"
@@ -139,7 +123,7 @@
             <h3 class="project-subtitle">Проект Boxes</h3>
             <p class="project-desc">Приложение</p>
           </li>
-          <li class="project-item-6">
+          <li class="project-item">
             <img
               class="project-img"
               src="./images/main/project6.jpg"
@@ -150,7 +134,7 @@
             <h3 class="project-subtitle">Inspiration has no Borders</h3>
             <p class="project-desc">Веб-сайт</p>
           </li>
-          <li class="project-item-7">
+          <li class="project-item">
             <img
               class="project-img"
               src="./images/main/project7.jpg"
@@ -161,7 +145,7 @@
             <h3 class="project-subtitle">Издание Limited Edition</h3>
             <p class="project-desc">Дизайн</p>
           </li>
-          <li class="project-item-8">
+          <li class="project-item">
             <img
               class="project-img"
               src="./images/main/project8.jpg"
@@ -172,7 +156,7 @@
             <h3 class="project-subtitle">Проект LAB</h3>
             <p class="project-desc">Маркетинг</p>
           </li>
-          <li class="project-item-9">
+          <li class="project-item">
             <img
               class="project-img"
               src="./images/main/project9.jpg"
